@@ -1,35 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Textarea } from './components/textarea'
+import { Input } from './components/input'
+import { Select } from './components/select'
+import { Checkbox } from './components/checkbox'
+import { Radio } from './components/radio'
+import { ParentA } from './components/ParentA'
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+return (
+<>
+<Textarea />
+<hr></hr>
+<Input />
+<hr></hr>
+<Select />
+<hr></hr>
+<Checkbox />
+<hr></hr>
+<Radio />
+<hr></hr>
+<ParentA />
+</> 
+)
 }
 
 export default App
