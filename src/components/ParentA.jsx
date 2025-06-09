@@ -1,5 +1,5 @@
 import React, { useState }  from 'react'
-import { ChildA } from './ChildA'
+import ChildA from './ChildA'
 
 export const ParentA = ( ) => {
     const [childValue, setChildValue] = useState("");

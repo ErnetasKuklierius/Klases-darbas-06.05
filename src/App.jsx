@@ -6,6 +6,8 @@ import { Select } from './components/select'
 import { Checkbox } from './components/checkbox'
 import { Radio } from './components/radio'
 import { ParentA } from './components/ParentA'
+import { Parent } from './components/Parent'
+import { Catlist } from './components/catlist'
 
 function App() {
 
@@ -22,6 +24,10 @@ return (
 <Radio />
 <hr></hr>
 <ParentA />
+<hr></hr>
+<Parent />
+<hr></hr>
+<Catlist />
 </> 
 )
 }
